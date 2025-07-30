@@ -1,0 +1,48 @@
+jarvis/
+└── client/
+    ├── package.json              # Scripts for development & build
+    ├── vite.config.js            # Vite configuration for both main & renderer
+    ├── dist-electron/             # Distribution folder for Electron
+    ├── electron/                   # Electron-related files
+    ├── node_modules/              # Node.js modules
+    ├── public/                    # Public assets
+
+src/
+├── components/
+│   ├── layout/
+│   │   ├── Sidebar.jsx           # Sidebar component
+│   │   ├── Header.jsx            # Header component
+│   │   └── InputBar.jsx          # Input bar component
+│   ├── screens/
+│   │   ├── ChatScreen.jsx        # Chat screen component
+│   │   ├── HistoryScreen.jsx     # History screen component
+│   │   └── SettingsScreen.jsx    # Settings screen component
+│   └── ui/
+│       ├── MessageBubble.jsx     # Message bubble component
+│       ├── Waveform.jsx          # Waveform component
+│       ├── GradientBorderCard.jsx # Gradient border card component
+│       └── AnimatedBubble.jsx     # Animated bubble component
+│       ├── ParticlesBackground.jsx       
+│       ├── VoiceVisualizer.jsx           
+│       ├── Jarvis3DAvatar.jsx           
+│       ├── FileDropzone.jsx              
+│       ├── AIGeneratedArt.jsx            
+│       ├── HapticFeedback.jsx            
+│       ├── SoundPlayer.jsx               
+├── contexts/
+│   ├── AppContext.jsx            # Application context
+│   └── ThemeContext.jsx          # Theme context
+│   └── SoundContext.jsx                 
+
+├── hooks/
+│   └── useVoiceRecognition.js     # Custom hook for voice recognition
+│   ├── useHapticFeedback.js             
+│   └── useArtGenerator.js               
+
+├── assets/
+│   ├── gradients/                # Gradient assets
+│   └── sounds/                   # Sound assets
+├── styles/
+│   ├── tailwind.css              # Tailwind CSS styles
+│   └── animations.css            # Animation styles
+└── App.jsx                       # Main application component

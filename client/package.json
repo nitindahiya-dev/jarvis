@@ -10,8 +10,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.7",
+    "@heroicons/react": "^2.2.0",
+    "@react-hook/window-size": "^3.1.1",
+    "@react-pdf/renderer": "^4.3.0",
+    "@react-three/drei": "^8.20.2",
+    "@react-three/fiber": "^8.18.0",
+    "framer-motion": "^12.23.12",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.3.8",
+    "react-icons": "^5.5.0",
+    "react-media-recorder": "^1.7.1",
+    "react-speech-recognition": "^4.0.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.8.1",
+    "use-sound": "^5.0.0",
+    "wavesurfer.js": "^7.10.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",
@@ -19,13 +34,16 @@
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.21",
+    "electron": "^30.0.1",
+    "electron-builder": "^24.13.3",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5.2.2",
     "vite": "^5.1.6",
-    "electron": "^30.0.1",
-    "electron-builder": "^24.13.3",
     "vite-plugin-electron": "^0.28.6",
     "vite-plugin-electron-renderer": "^0.14.5"
   },
